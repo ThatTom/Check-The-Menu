@@ -1,0 +1,9 @@
+[26-Mar-2023 05:42:07 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/checkthe/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/checkthe/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/checkthe/public_html/index.php on line 32
+[26-Mar-2023 05:42:08 Europe/London] PHP Fatal error:  Uncaught Error: Failed opening required '/home/checkthe/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/checkthe/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/checkthe/public_html/index.php on line 32
+[28-Mar-2023 00:22:37 Europe/London] PHP Fatal error:  Can't use function return value in write context in /home/checkthe/public_html/app/Controllers/Directory.php on line 11

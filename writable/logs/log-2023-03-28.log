@@ -1,0 +1,612 @@
+ERROR - 2023-03-28 00:15:56 --> mysqli_sql_exception: Unknown column 'GlutenFree' in 'where clause' in /home/checkthe/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/checkthe/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/checkthe/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/checkthe/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/checkthe/public_html/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/checkthe/public_html/app/Views/directory/index.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/checkthe/public_html/system/View/View.php(213): include('/home/checkthe/...')
+#6 /home/checkthe/public_html/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/checkthe/public_html/system/Common.php(1135): CodeIgniter\View\View->render()
+#8 /home/checkthe/public_html/app/Controllers/Directory.php(15): view()
+#9 /home/checkthe/public_html/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 /home/checkthe/public_html/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#11 /home/checkthe/public_html/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/checkthe/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-28 00:15:56 --> Unknown column 'GlutenFree' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Views/directory/index.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Directory.php(15): view()
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:19:30 --> Undefined variable $data
+in APPPATH/Views/directory/index.php on line 69.
+ 1 APPPATH/Views/directory/index.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:22:37 --> Can't use function return value in write context
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 00:22:51 --> Call to undefined function gluten()
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:23:02 --> Call to undefined function 4()
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:23:09 --> Call to undefined function allergens()
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:24:05 --> Array to string conversion
+in APPPATH/Views/directory/index.php on line 65.
+ 1 APPPATH/Views/directory/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:24:09 --> Array to string conversion
+in APPPATH/Views/directory/index.php on line 65.
+ 1 APPPATH/Views/directory/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:24:22 --> Call to undefined function allergens()
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:24:28 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-28 00:25:09 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in /home/checkthe/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/checkthe/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/checkthe/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/checkthe/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/checkthe/public_html/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/checkthe/public_html/app/Views/directory/index.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/checkthe/public_html/system/View/View.php(213): include('/home/checkthe/...')
+#6 /home/checkthe/public_html/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/checkthe/public_html/system/Common.php(1135): CodeIgniter\View\View->render()
+#8 /home/checkthe/public_html/app/Controllers/Directory.php(15): view()
+#9 /home/checkthe/public_html/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 /home/checkthe/public_html/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#11 /home/checkthe/public_html/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/checkthe/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-28 00:25:09 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Views/directory/index.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Directory.php(15): view()
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-28 00:25:17 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in /home/checkthe/public_html/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/checkthe/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/checkthe/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/checkthe/public_html/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/checkthe/public_html/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/checkthe/public_html/app/Views/directory/index.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/checkthe/public_html/system/View/View.php(213): include('/home/checkthe/...')
+#6 /home/checkthe/public_html/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/checkthe/public_html/system/Common.php(1135): CodeIgniter\View\View->render()
+#8 /home/checkthe/public_html/app/Controllers/Directory.php(15): view()
+#9 /home/checkthe/public_html/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 /home/checkthe/public_html/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#11 /home/checkthe/public_html/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/checkthe/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-03-28 00:25:17 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Views/directory/index.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Directory.php(15): view()
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:27:20 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 APPPATH/Controllers/Directory.php(11): implode()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:27:26 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 APPPATH/Controllers/Directory.php(11): implode()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:27:32 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 APPPATH/Controllers/Directory.php(11): implode()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:27:40 --> Call to undefined function ()
+in APPPATH/Controllers/Directory.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:30:16 --> Call to undefined function 1,2,3,4()
+in APPPATH/Controllers/Directory.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:30:40 --> Call to undefined function 1,2,3,4()
+in APPPATH/Controllers/Directory.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:30:42 --> Call to undefined function ()
+in APPPATH/Controllers/Directory.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:47:38 --> implode(): Argument #1 ($pieces) must be of type array, string given
+in APPPATH/Controllers/Directory.php on line 11.
+ 1 APPPATH/Controllers/Directory.php(11): implode()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:50:54 --> Undefined variable $dairy
+in APPPATH/Views/directory/index.php on line 23.
+ 1 APPPATH/Views/directory/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:53:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH/Views/directory/index.php on line 108.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Directory.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:53:58 --> Undefined variable $businessname
+in APPPATH/Views/directory/index.php on line 44.
+ 1 APPPATH/Views/directory/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:55:45 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Directory.php on line 36.
+ 1 APPPATH/Controllers/Directory.php(36): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:57:36 --> Undefined variable $businessname
+in APPPATH/Views/directory/index.php on line 44.
+ 1 APPPATH/Views/directory/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:57:59 --> Attempt to read property "businessname" on array
+in APPPATH/Views/directory/index.php on line 44.
+ 1 APPPATH/Views/directory/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:58:18 --> Undefined variable $town
+in APPPATH/Views/directory/index.php on line 48.
+ 1 APPPATH/Views/directory/index.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:13:18 --> CodeIgniter\Database\BaseBuilder::havingLike(): Argument #2 ($match) must be of type string, null given, called in /home/checkthe/public_html/app/Controllers/Directory.php on line 29
+in SYSTEMPATH/Database/BaseBuilder.php on line 1006.
+ 1 APPPATH/Controllers/Directory.php(29): CodeIgniter\Database\BaseBuilder->havingLike()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:15:09 --> CodeIgniter\Database\BaseBuilder::havingLike(): Argument #2 ($match) must be of type string, null given, called in /home/checkthe/public_html/app/Controllers/Directory.php on line 33
+in SYSTEMPATH/Database/BaseBuilder.php on line 1006.
+ 1 APPPATH/Controllers/Directory.php(33): CodeIgniter\Database\BaseBuilder->havingLike()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:15:40 --> urldecode(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH/Views/directory/index.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/directory/index.php(44): urldecode()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Directory.php(79): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:18:41 --> urldecode(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH/Views/directory/index.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/directory/index.php(44): urldecode()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Directory.php(79): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:19:52 --> CodeIgniter\Database\BaseBuilder::havingLike(): Argument #2 ($match) must be of type string, null given, called in /home/checkthe/public_html/app/Controllers/Directory.php on line 29
+in SYSTEMPATH/Database/BaseBuilder.php on line 1006.
+ 1 APPPATH/Controllers/Directory.php(29): CodeIgniter\Database\BaseBuilder->havingLike()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 14:26:13 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 11.
+ 1 APPPATH/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 14:26:26 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 14:26:30 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 11.
+ 1 APPPATH/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 14:35:42 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set()
+ 3 SYSTEMPATH/Config/Services.php(658): CodeIgniter\Session\Handlers\FileHandler->__construct()
+ 4 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 6 SYSTEMPATH/Config/Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance()
+ 7 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH/Common.php(932): CodeIgniter\Config\BaseService::__callStatic()
+ 9 APPPATH/Controllers/Home.php(9): session()
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 14:47:36 --> Invalid file: default.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(15): view()
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:03:38 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:04:07 --> Undefined variable $uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:04:08 --> Undefined variable $uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:05:15 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:05:33 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:05:33 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:05:34 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:08:41 --> Creation of dynamic property App\Controllers\Home::$session is deprecated
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 APPPATH/Controllers/BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:08:56 --> Creation of dynamic property App\Controllers\Home::$session is deprecated
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 APPPATH/Controllers/BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:10:42 --> Creation of dynamic property App\Controllers\Home::$session is deprecated
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 APPPATH/Controllers/BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:11:21 --> Undefined variable $config
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 APPPATH/Controllers/BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:11:28 --> Undefined property: App\Controllers\Home::$CI
+in APPPATH/Controllers/BaseController.php on line 53.
+ 1 APPPATH/Controllers/BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:11:53 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:11:56 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:12:26 --> Undefined variable $session
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 APPPATH/Controllers/BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:12:39 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:14:51 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:14:52 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:14:52 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:15:06 --> Undefined variable $session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:15:36 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 9.
+ 1 APPPATH/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:17:16 --> Creation of dynamic property App\Controllers\Home::$session is deprecated
+in APPPATH/Controllers/BaseController.php on line 52.
+ 1 APPPATH/Controllers/BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(888): App\Controllers\BaseController->initController()
+ 3 SYSTEMPATH/CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:18:16 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 12.
+ 1 APPPATH/Controllers/Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:18:17 --> Undefined property: App\Controllers\Home::$session
+in APPPATH/Controllers/Home.php on line 12.
+ 1 APPPATH/Controllers/Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:18:26 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(16): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:18:43 --> Undefined variable $uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(16): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 15:18:53 --> Undefined variable $uri
+in APPPATH/Views/included.php on line 23.
+ 1 APPPATH/Views/included.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/included.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Home.php(16): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

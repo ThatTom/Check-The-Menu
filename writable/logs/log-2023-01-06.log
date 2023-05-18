@@ -1,0 +1,1727 @@
+CRITICAL - 2023-01-06 00:10:40 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\Directory.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:12:38 --> Call to a member function database() on null
+in APPPATH\Controllers\Directory.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:12:52 --> Call to a member function database() on null
+in APPPATH\Controllers\Directory.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:12:55 --> Call to a member function database() on null
+in APPPATH\Controllers\Directory.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:12:59 --> Call to a member function database() on null
+in APPPATH\Controllers\Directory.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:17:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\Directory.php(9): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:17:56 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:17:58 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:18:04 --> Class 'Database' not found
+in APPPATH\Views\directory.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 4 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:21:07 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:21:08 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:21:09 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:22:56 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:23:36 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:21 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:23 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:24:24 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+in SYSTEMPATH\Database\Database.php on line 136.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Database\\mysql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Views\directory.php(17): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 7 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:29:01 --> Undefined variable: results
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\directory.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:29:16 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT name FRO...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(11): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:29:16 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT name FROM restaraunts', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM restaraunts')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM restaraunts')
+ 4 APPPATH\Controllers\Directory.php(11): CodeIgniter\Database\BaseConnection->query('SELECT name FROM restaraunts')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:29:20 --> mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT name FRO...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(11): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 00:29:20 --> Unknown column 'name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT name FROM restaraunts', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM restaraunts')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM restaraunts')
+ 4 APPPATH\Controllers\Directory.php(11): CodeIgniter\Database\BaseConnection->query('SELECT name FROM restaraunts')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:29:38 --> Undefined variable: results
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\directory.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [...], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:29:39 --> Undefined variable: results
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\directory.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [...], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:30:28 --> Undefined variable: results
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\directory.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [...], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:30:36 --> Undefined variable: keyword
+in APPPATH\Views\directory.php on line 44.
+ 1 APPPATH\Views\directory.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keyword', 'APPPATH\\Views\\directory.php', 44, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:30:48 --> Undefined variable: results
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\directory.php', 89, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:31:20 --> Undefined variable: db
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Views\\directory.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(12): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:31:21 --> Undefined variable: db
+in APPPATH\Views\directory.php on line 89.
+ 1 APPPATH\Views\directory.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Views\\directory.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(12): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:31:41 --> Undefined property: stdClass::$Name
+in APPPATH\Views\directory.php on line 97.
+ 1 APPPATH\Views\directory.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Name', 'APPPATH\\Views\\directory.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 00:31:43 --> Undefined property: stdClass::$Name
+in APPPATH\Views\directory.php on line 97.
+ 1 APPPATH\Views\directory.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Name', 'APPPATH\\Views\\directory.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:32:53 --> mysqli_sql_exception: Unknown column '$keyword' in 'where clause' in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:32:53 --> Unknown column '$keyword' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=$keyword', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=$keyword')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=$keyword')
+ 4 APPPATH\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=$keyword')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:34:02 --> mysqli_sql_exception: Unknown column 'Top' in 'where clause' in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:34:02 --> Unknown column 'Top' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=Top', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=Top')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=Top')
+ 4 APPPATH\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName=Top')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:35:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EQUALS Top' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:35:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EQUALS Top' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName EQUALS Top', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName EQUALS Top')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName EQUALS Top')
+ 4 APPPATH\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName EQUALS Top')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:36:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:36:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 4 APPPATH\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:36:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:36:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 4 APPPATH\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:36:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:36:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 4 APPPATH\Views\directory.php(90): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName = ?')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:48:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Lounge'%' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(20): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', 'Lounge')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:48:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Lounge'%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'Lounge\'%', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'Lounge\'%')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'Lounge\'%')
+ 4 APPPATH\Views\directory.php(20): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %?%', 'Lounge')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 00:48:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Lounge'' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(20): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', 'Lounge')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(10): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 00:48:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'Lounge'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'Lounge\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'Lounge\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'Lounge\'')
+ 4 APPPATH\Views\directory.php(20): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %?', 'Lounge')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(10): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:25:00 --> Undefined variable: posid
+in APPPATH\Views\Blog\viewpost.php on line 17.
+ 1 APPPATH\Views\Blog\viewpost.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: posid', 'APPPATH\\Views\\Blog\\viewpost.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:25:09 --> Undefined variable: posid
+in APPPATH\Views\Blog\viewpost.php on line 17.
+ 1 APPPATH\Views\Blog\viewpost.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: posid', 'APPPATH\\Views\\Blog\\viewpost.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 17:25:18 --> mysqli_sql_exception: Unknown column 'RestarauntName' in 'field list' in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\Blog\viewpost.php(17): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '1')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Blog.php(15): view('blog/viewpost', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 17:25:18 --> Unknown column 'RestarauntName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM blogposts WHERE PostID=\'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM blogposts WHERE PostID=\'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM blogposts WHERE PostID=\'1\'')
+ 4 APPPATH\Views\Blog\viewpost.php(17): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM blogposts WHERE PostID=?', '1')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 8 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:27:47 --> Undefined variable: PostTitle
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: PostTitle', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:28:03 --> Function name must be a string
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 4 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:28:04 --> Function name must be a string
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 4 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:28:52 --> Trying to get property 'PostTitle' of non-object
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'PostTitle\' of non-object', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:29:46 --> Array to string conversion
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:29:47 --> Array to string conversion
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:29:55 --> Undefined offset: 0
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:30:00 --> Undefined offset: 1
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:30:42 --> Undefined index: PostTitle
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: PostTitle', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:33 --> Undefined offset: 1
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:36 --> Undefined offset: 0
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:40 --> Undefined offset: 0
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:41 --> Undefined offset: 0
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 APPPATH\Views\Blog\viewpost.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Blog\\viewpost.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Blog\\viewpost.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 5 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:46 --> Function name must be a string
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 4 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:52 --> Function name must be a string
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 4 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 17:53:52 --> Function name must be a string
+in APPPATH\Views\Blog\viewpost.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/viewpost', [], true)
+ 4 APPPATH\Controllers\Blog.php(15): view('blog/viewpost', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:11:50 --> Illegal string offset ''
+in APPPATH\Views\directory.php on line 18.
+ 1 APPPATH\Views\directory.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'\'', 'APPPATH\\Views\\directory.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:12:07 --> Array and string offset access syntax with curly braces is deprecated
+in APPPATH\Views\directory.php on line 18.
+ 1 SYSTEMPATH\View\View.php(213): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Array and string offset access syntax with curly braces is deprecated', 'APPPATH\\Views\\directory.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include()
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:12:08 --> Illegal string offset ' '
+in APPPATH\Views\directory.php on line 18.
+ 1 APPPATH\Views\directory.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \' \'', 'APPPATH\\Views\\directory.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:13:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(13): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:13:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''%' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'%', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'%')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'%')
+ 4 APPPATH\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %?%', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:13:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE CONTAINS ''' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(13): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:13:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE CONTAINS ''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName WHERE CONTAINS \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName WHERE CONTAINS \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName WHERE CONTAINS \'\'')
+ 4 APPPATH\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName WHERE CONTAINS ?', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:14:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(13): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:14:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'')
+ 4 APPPATH\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %?', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:15:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(RestarauntName, '')' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(13): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:15:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(RestarauntName, '')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts CONTAINS(RestarauntName, \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts CONTAINS(RestarauntName, \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts CONTAINS(RestarauntName, \'\')')
+ 4 APPPATH\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts CONTAINS(RestarauntName, ?)', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:16:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(13): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:16:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %\'\'')
+ 4 APPPATH\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %?', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:16:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%match' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', '')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(13): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:16:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%match' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %match', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %match')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %match')
+ 4 APPPATH\Views\directory.php(21): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE %match', 'ROOTPATH\\public')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:22:18 --> Request URI segment is out of range: 2
+in SYSTEMPATH\HTTP\URI.php on line 529.
+ 1 SYSTEMPATH\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\Directory.php(10): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:22:31 --> Undefined variable: gluten
+in APPPATH\Views\directory.php on line 57.
+ 1 APPPATH\Views\directory.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: gluten', 'APPPATH\\Views\\directory.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(13): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 18:45:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':keyword: OR RestarauntAddress LIKE :keyword:' at line 1 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT Restarau...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Restarau...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Restarau...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(20): CodeIgniter\Database\BaseConnection->query('SELECT Restarau...', 'Aylesbury')
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(14): view('directory', Array)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 18:45:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':keyword: OR RestarauntAddress LIKE :keyword:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE :keyword: OR RestarauntAddress LIKE :keyword:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE :keyword: OR RestarauntAddress LIKE :keyword:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE :keyword: OR RestarauntAddress LIKE :keyword:')
+ 4 APPPATH\Views\directory.php(20): CodeIgniter\Database\BaseConnection->query('SELECT RestarauntName FROM restaraunts WHERE RestarauntName LIKE :keyword: OR RestarauntAddress LIKE :keyword:', 'Aylesbury')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 8 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:48:11 --> Undefined variable: builder
+in APPPATH\Views\directory.php on line 19.
+ 1 APPPATH\Views\directory.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Views\\directory.php', 19, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 18:49:02 --> Undefined variable: query
+in APPPATH\Views\directory.php on line 21.
+ 1 APPPATH\Views\directory.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query', 'APPPATH\\Views\\directory.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 19:25:57 --> Undefined property: stdClass::$RestarauntName
+in APPPATH\Views\directory.php on line 109.
+ 1 APPPATH\Views\directory.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$RestarauntName', 'APPPATH\\Views\\directory.php', 109, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 20:41:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '1'
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIK' at line 3 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(14): view('directory', Array)
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-06 20:41:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`=` = '1'
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIK' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` `=` = \'1\'
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE \'%%\' ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` `=` = \'1\'
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE \'%%\' ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` `=` = \'1\'
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE \'%%\' ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` `=` = :GlutenFree =:
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE :RestarauntName: ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE :RestarauntAddress: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Views\directory.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 9 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 20:41:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE ' at line 3 in C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ttisb\Documents\Development\Check The Menu\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(213): include('C:\\Users\\ttisb\\...')
+#6 C:\Users\ttisb\Documents\Development\Check The Menu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\ttisb\Documents\Development\Check The Menu\system\Common.php(1135): CodeIgniter\View\View->render('directory', Array, true)
+#8 C:\Users\ttisb\Documents\Development\Check The Menu\app\Controllers\Directory.php(14): view('directory', Array)
+#9 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+#11 C:\Users\ttisb\Documents\Development\Check The Menu\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ttisb\Documents\Development\Check The Menu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-01-06 20:41:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE ' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` = IS NULL
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE \'%%\' ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE \'%%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` = IS NULL
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE \'%%\' ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE \'%%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` = IS NULL
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE \'%%\' ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE \'%%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `restaraunts`
+WHERE `GlutenFree` = IS NULL
+AND `DairyFree` IS NULL
+AND `NutFree` IS NULL
+OR  `RestarauntName` LIKE :RestarauntName: ESCAPE \'!\'
+OR  `RestarauntAddress` LIKE :RestarauntAddress: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Views\directory.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 9 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+10 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+11 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:41:54 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\directory.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 4 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:42:03 --> Call to undefined function string()
+in APPPATH\Views\directory.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 4 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:44:18 --> syntax error, unexpected end of file
+in APPPATH\Views\directory.php on line 137.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 3 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:45:20 --> syntax error, unexpected end of file
+in APPPATH\Views\directory.php on line 144.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 3 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:51:54 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php on line 23
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 APPPATH\Views\directory.php(23): CodeIgniter\Database\BaseBuilder->orLike('RestarauntName', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:52:30 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php on line 23
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 APPPATH\Views\directory.php(23): CodeIgniter\Database\BaseBuilder->orLike('RestarauntName', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:55:23 --> Undefined variable: keyword
+in APPPATH\Views\directory.php on line 23.
+ 1 APPPATH\Views\directory.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keyword', 'APPPATH\\Views\\directory.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:55:26 --> Undefined variable: keyword
+in APPPATH\Views\directory.php on line 23.
+ 1 APPPATH\Views\directory.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keyword', 'APPPATH\\Views\\directory.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:55:43 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php on line 23
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 APPPATH\Views\directory.php(23): CodeIgniter\Database\BaseBuilder->orLike('RestarauntName', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:55:58 --> Undefined variable: keyword
+in APPPATH\Views\directory.php on line 24.
+ 1 APPPATH\Views\directory.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keyword', 'APPPATH\\Views\\directory.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(14): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:56:23 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php on line 24
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 APPPATH\Views\directory.php(24): CodeIgniter\Database\BaseBuilder->orLike('RestarauntAddress', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:56:33 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php on line 24
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 APPPATH\Views\directory.php(24): CodeIgniter\Database\BaseBuilder->orLike('RestarauntAddress', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:56:58 --> Undefined variable: keyword
+in APPPATH\Views\directory.php on line 56.
+ 1 APPPATH\Views\directory.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: keyword', 'APPPATH\\Views\\directory.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 20:57:57 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\Users\ttisb\Documents\Development\Check The Menu\app\Views\directory.php on line 23
+in SYSTEMPATH\Database\BaseBuilder.php on line 980.
+ 1 APPPATH\Views\directory.php(23): CodeIgniter\Database\BaseBuilder->orLike('RestarauntName', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:16:59 --> Undefined variable: bussinessaddress
+in APPPATH\Views\directory.php on line 21.
+ 1 APPPATH\Views\directory.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bussinessaddress', 'APPPATH\\Views\\directory.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\directory.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 5 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 21:29:02 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\directory.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('directory', [], true)
+ 4 APPPATH\Controllers\Directory.php(15): view('directory', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Directory->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Directory))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:24:54 --> Invalid file: blog/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:24:59 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/sandboxi/public_html/Main-Site/app/Views/directory.php on line 21
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 APPPATH/Views/directory.php(21): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:25:27 --> Invalid file: blog/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:25:41 --> Invalid file: blog/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:33:44 --> Invalid file: blog/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:34:17 --> Invalid file: blog/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:34:58 --> Invalid file: blog/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:35:00 --> Invalid file: blog/viewpost.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 23:35:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'developer'@'localhost' (using password: YES) in /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/sandboxi/public_html/Main-Site/app/Views/blog/viewpost.php(17): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sandboxi/public_html/Main-Site/system/View/View.php(213): include('/home/sandboxi/...')
+#5 /home/sandboxi/public_html/Main-Site/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/sandboxi/public_html/Main-Site/system/Common.php(1135): CodeIgniter\View\View->render()
+#7 /home/sandboxi/public_html/Main-Site/app/Controllers/Blog.php(15): view()
+#8 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+#9 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#10 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/sandboxi/public_html/Main-Site/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/sandboxi/public_html/Main-Site/app/Views/blog/viewpost.php(17): CodeIgniter\Database\BaseConnection->query()
+#3 /home/sandboxi/public_html/Main-Site/system/View/View.php(213): include('/home/sandboxi/...')
+#4 /home/sandboxi/public_html/Main-Site/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/sandboxi/public_html/Main-Site/system/Common.php(1135): CodeIgniter\View\View->render()
+#6 /home/sandboxi/public_html/Main-Site/app/Controllers/Blog.php(15): view()
+#7 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+#8 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#9 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/sandboxi/public_html/Main-Site/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-06 23:35:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Views/blog/viewpost.php(17): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blog/viewpost.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Blog.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Blog->viewpost()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:35:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/sandboxi/public_html/Main-Site/app/Views/directory.php on line 21
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 APPPATH/Views/directory.php(21): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:37:03 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/sandboxi/public_html/Main-Site/app/Views/directory.php on line 21
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 APPPATH/Views/directory.php(21): CodeIgniter\Database\BaseBuilder->like()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Directory.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 23:37:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'developer'@'localhost' (using password: YES) in /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/sandboxi/public_html/Main-Site/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sandboxi/public_html/Main-Site/app/Views/directory.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sandboxi/public_html/Main-Site/system/View/View.php(213): include('/home/sandboxi/...')
+#6 /home/sandboxi/public_html/Main-Site/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/sandboxi/public_html/Main-Site/system/Common.php(1135): CodeIgniter\View\View->render()
+#8 /home/sandboxi/public_html/Main-Site/app/Controllers/Directory.php(15): view()
+#9 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#11 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/sandboxi/public_html/Main-Site/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/sandboxi/public_html/Main-Site/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/sandboxi/public_html/Main-Site/app/Views/directory.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/sandboxi/public_html/Main-Site/system/View/View.php(213): include('/home/sandboxi/...')
+#5 /home/sandboxi/public_html/Main-Site/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/sandboxi/public_html/Main-Site/system/Common.php(1135): CodeIgniter\View\View->render()
+#7 /home/sandboxi/public_html/Main-Site/app/Controllers/Directory.php(15): view()
+#8 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#10 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/sandboxi/public_html/Main-Site/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 23:37:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Views/directory.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Directory.php(15): view()
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-06 23:37:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'developer'@'localhost' (using password: YES) in /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/sandboxi/public_html/Main-Site/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sandboxi/public_html/Main-Site/app/Views/directory.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sandboxi/public_html/Main-Site/system/View/View.php(213): include('/home/sandboxi/...')
+#6 /home/sandboxi/public_html/Main-Site/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/sandboxi/public_html/Main-Site/system/Common.php(1135): CodeIgniter\View\View->render()
+#8 /home/sandboxi/public_html/Main-Site/app/Controllers/Directory.php(15): view()
+#9 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#10 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#11 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/sandboxi/public_html/Main-Site/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/sandboxi/public_html/Main-Site/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/sandboxi/public_html/Main-Site/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/sandboxi/public_html/Main-Site/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/sandboxi/public_html/Main-Site/app/Views/directory.php(26): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/sandboxi/public_html/Main-Site/system/View/View.php(213): include('/home/sandboxi/...')
+#5 /home/sandboxi/public_html/Main-Site/system/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /home/sandboxi/public_html/Main-Site/system/Common.php(1135): CodeIgniter\View\View->render()
+#7 /home/sandboxi/public_html/Main-Site/app/Controllers/Directory.php(15): view()
+#8 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(925): App\Controllers\Directory->index()
+#9 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#10 /home/sandboxi/public_html/Main-Site/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/sandboxi/public_html/Main-Site/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-06 23:37:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Views/directory.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Directory.php(15): view()
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-06 23:54:18 --> urldecode(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH/Views/directory/index.php on line 56.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/directory/index.php(56): urldecode()
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/directory/index.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Directory.php(15): view()
+ 7 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 8 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

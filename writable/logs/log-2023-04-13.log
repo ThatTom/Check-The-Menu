@@ -1,0 +1,7 @@
+CRITICAL - 2023-04-13 10:31:19 --> CodeIgniter\Database\BaseBuilder::havingLike(): Argument #2 ($match) must be of type string, null given, called in /home/checkthe/public_html/app/Controllers/Directory.php on line 29
+in SYSTEMPATH/Database/BaseBuilder.php on line 1006.
+ 1 APPPATH/Controllers/Directory.php(29): CodeIgniter\Database\BaseBuilder->havingLike()
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Directory->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
